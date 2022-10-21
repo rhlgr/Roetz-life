@@ -1,0 +1,501 @@
+
+@media(max-width: 600px) {
+  
+    .box1{
+        width: 100%;
+        height: 100vh;
+      overflow: hidden;
+    }
+    .nav{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 35px 10px;
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+    }
+    .nav>.part1{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav>.part1>h1{
+    font: 900 2.2vmax "poppins";
+    cursor: pointer;
+    }
+    .nav>.part1>h2{
+        font: 900 2.1vmax "poppins";
+        margin-left: 2px;
+        color: rgb(165,164,161);
+        cursor: pointer;
+        }
+    .nav>.part2{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    .nav>.part2>h3{
+        font: 900 1vmax "roboto";
+        letter-spacing: .2px;
+        cursor: pointer;
+        display: none;
+        }
+        .nav>.part2>button{
+            font: 900 .9vmax "roboto";
+          color: white;
+          background-color: black;
+          padding: 10px 15px;
+          border-radius: 10px;
+          border: none;
+          cursor: pointer;
+          text-decoration: none;
+          text-decoration-line: none;
+          text-anchor: none;
+          display: none;
+    }
+    .nav>.part2>button:hover{
+        background-color: rgba(0, 0, 0, 0.753);
+
+    }
+    .nav>.part2>img{
+        display: initial;
+    }
+    .box1>h1{
+        position: absolute;
+        top: 75%;
+        left: 3%;
+        font: 900 6.6vmax "poppins";
+        letter-spacing: -1px;
+        line-height: 40px;
+        color: rgb(251,80,0);
+        width: 91.5%;
+      
+    }
+    .b1bottom{
+        background-color: white;
+        width: 100%;
+        height: 11vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        cursor: pointer;
+        padding-left: 2vmax;
+    }
+    .b1bottom>h1{
+        font: 900 2.5vmax "poppins";
+    }
+    .b1bottom>img{
+        width: 13%; 
+        height: 40px;
+        margin-left: 2vmax;
+    }
+    .b1bottom:hover .b1bottom>img{
+        transform: translateX(10%);
+    }
+    .box2{
+        background-color: rgb(244,244,238);
+        width: 100%;
+        height: 130vh;
+        
+    }
+    .b2top{
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .b2one{
+        width: 100%;
+        height: 10vh;
+    
+    }
+    .b2one>h1{
+        font: 900 6vmax "poppins";
+        margin: 120px 20px;
+    }
+    .b2two{
+        width: 90%;
+        height: 40vh;
+    }
+    .b2two>h2{
+        font: 900 2.3vmax "roboto";
+        margin-top: 60px;
+        line-height: 30px;
+        margin-left: -30px;
+    }
+    .b22{
+        width: 100%;
+        display: flex;
+        margin-top: 3vmax;
+    }
+    .b22>h1{
+        font: 900 2.5vmax "poppins";
+        margin-right: 10px;
+        margin-left: -30px;
+    }
+    .b2bottom{
+        height: 40vh;
+        width: 100%;
+        background-image: url(front1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .box3{
+        width: 100%;
+        height: 30vh;
+        background-color: rgb(244,244,238);
+    }
+    .b3top{
+        width: 60%;
+        height: 30vh;
+    }
+    .b3top>h1{
+        font: 900 5vmax "poppins";
+        margin-left: 30px;
+        padding-top: 20px;
+        line-height: 40px;
+    }
+    .b3top>h2{
+        font: 500 3vmax "poppins";
+        margin-left: 30px;
+        display: none;
+    }
+    .swiper {
+        width: 100%;
+        height: 55vh;
+        /* white-space: nowrap;
+        overflow: auto;
+        position: absolute;
+        position: relative; */
+        display: flex;
+        display: none;
+      }
+    
+      .b3one,.b3two,.b3three,.b3four{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        /* display: flex; */
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        display: inline-block;
+      }
+      .box4{
+        width: 100%;
+        height: 26vh;
+        background-color: rgb(244,244,238);
+        background-image: url(top1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .box5{
+        width: 100%;
+        height: 190vh;
+     display: flex;
+     flex-direction: column;
+    }
+    .b5left{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(244,244,238);
+        background-image: url(drawing.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .b5right{
+        width: 100%;
+        height: 90vh;
+        background-color: #FFD74E;
+    }
+    .b5right>h1{
+        font: 900 4.5vmax "poppins";
+        margin-top: 30px;
+        margin-left: 30px;
+        line-height: 40px;
+        width: 80%;
+    }
+    .b5right>p{
+        font: 500 2vmax "poppins";
+        margin-top: 0px;
+        margin-left: 30px;
+        line-height: 20px;
+        width: 85%;
+    }
+    .b5right>img{
+        height: 280px;
+        width: 350px;
+        margin-left: 2vmax;
+    }
+
+    .box6{
+        width: 100%;
+        height: 80vh;
+        background-color: rgb(244,244,238);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .b6one,.b6two,.b6three{
+        width: 80%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .b6one>img,.b6two>img,.b6three>img{
+     height: 55px;
+    }
+    .b6one>h1,.b6two>h1,.b6three>h1{
+        width: 100%;
+        margin-top: 2vmax;
+        font: 700 3vmax "poppins";
+    text-align: center;
+    }
+    .box7{
+        width: 100%;
+        height: 30vh;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .box8{
+        width: 100%;
+        height: 180vh;
+        overflow: hidden;
+        background-color: rgb(244,244,238);
+    }
+    .b8one{
+        width: 100%;
+        height: 30vh;
+        padding-left: 10px;
+        padding-top: 30px;
+        background-color: rgb(244,244,238);
+    }
+    .b8one>h1{
+        font: 900 4.5vmax "poppins";
+        width: 80%;
+        line-height: 40px;
+        text-align:start;
+    }
+    .b81{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 1.5vmax;
+    }
+    .b81>h1{
+        font: 900 3vmax "poppins";
+        margin-right: 2vmax;
+    }
+    .b8two{
+        width: 100%;
+        height: 150vh;
+        padding-left: 10px;
+        padding-top: 420px;
+        position: relative;
+    }
+    .b8two>h1{
+        font: 900 3vmax "poppins";
+        width: 100%;
+        line-height: 25px;
+        text-align: start;
+    }
+    .b8two>p{
+        font: 900 2.5vmax "roboto";
+        width: 60%;
+    margin-top: 1.5vmax;
+    margin-left: .5vmax;
+    }
+    .b8two>h2{
+        font: 900 3vmax "poppins";
+        width: 100%;
+        line-height: 30px;
+        margin-top: 45vmax;
+        margin-left: 2vmax;
+        text-align: start;
+    }
+    .b8two>h3{
+        font: 900 2.5vmax "roboto";
+        width: 100%;
+    margin-top: 1.5vmax;
+    margin-left: 2vmax;
+    }
+    .img1{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        height: 300px;
+        width: 300px;
+    }
+    .img2{
+        position: absolute;
+        top: 58%;
+        left: 5%;
+        height: 200px;
+        width: 300px;
+    }
+    .box9{
+        width: 100%;
+        height: 60vh;
+        background-color: #FFD74E;
+        padding-top: 8vmax;
+        padding-left: 4vmax;
+    }
+    .box9>h1{
+        font: 900 4vmax "poppins"; 
+        width: 60%;
+        line-height: 30px;
+    }
+    .box9>p{
+        font: 900 2.5vmax "roboto"; 
+        margin-top: 1vmax;
+        width: 80%;
+        line-height: 25px;
+    }
+    .box9>button{
+        font: 600 2.5vmax "roboto";
+        color: white;
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        margin-top: 1.5vmax;
+    }
+    .box10{
+        width: 100%;
+        height: 160vh;
+        padding: 30px;
+        background-color: rgb(244,244,238);
+    }
+    .b10top{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    }
+    .b10one,.b10two,.b10three{
+        width: 100%;
+        height:30vh ;
+        border: .1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .b10one,.b10two{
+     border-bottom: none;
+    }
+    .b10one>h1,.b10two>h1,.b10three>h1{
+        font: 900 2.5vmax "poppins";
+    }
+    .b10middle{
+        width: 100%;
+        height:68vh ;
+        display: flex;
+        flex-direction: column;
+    }
+    .b10left,.b10right{
+        width: 100%;
+        height: inherit;
+        border: .1px solid black;
+        border-top: none;
+    }
+    .b10right{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .b10social{
+        margin-left: 0vmax;
+    }
+    .b10menu>h1,.b10social>h1{
+        font: 900 2.5vmax "poppins"; 
+        margin: 15px;
+    }
+    .b10menu>h2,.b10social>h2{
+        font: 900 1.8vmax "roboto"; 
+        margin: 15px;
+        cursor: pointer;
+    }
+    
+    .b10left{
+        padding: 20px;
+    }
+    .b10left>h1{
+        font: 900 2.5vmax "poppins"; 
+    }
+    .b10left>h2{
+        font: 600 1.5vmax "roboto"; 
+        margin-top: 5px;
+    }
+    .b10left>input{
+     padding: 10px 40px;
+     margin: 10px 0;
+     border-radius: 5px;
+     border: .1px solid rgba(0, 0, 0, 0.2);
+    }
+    .check{
+        display: flex;
+        align-items: center;
+    }
+    .check>input{
+        padding: 05px;
+    }
+    .check>h2{
+        font: 600 1.5vmax "roboto"; 
+        margin-left: .5vmax;
+    }
+    .b10left>button{
+        font: 900 2vmax "roboto";
+        color: white;
+        background-color: black;
+        padding: 12px 25px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        margin-top: 2vmax;
+    }
+    .box11{
+        width: 100%;
+        height: 6vh;
+        background-color: rgb(244,244,238);
+        padding-top: 10px;
+    }
+    .b11last{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+       width: 90%;
+    }
+    .b11last>h2{
+        font: 500 1.5vmax "poppins"; 
+    }
+
+
+
+
+
+
+
+    
+  }

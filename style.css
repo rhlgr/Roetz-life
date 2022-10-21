@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+ 
+}
+.box1{
+    width: 100%;
+    height: 100vh;
+  /* overflow: hidden; */
+}
+.nav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+}
+.nav>.part1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav>.part1>h1{
+font: 900 1.3vmax "poppins";
+cursor: pointer;
+text-emphasis: none;
+text-decoration: none;
+}
+.nav>.part1>h2{
+    font: 900 1.3vmax "poppins";
+    margin-left: -8px;
+    color: rgb(165,164,161);
+    cursor: pointer;
+    }
+.nav>.part2{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.nav>.part2>h3{
+    font: 900 1vmax "roboto";
+    letter-spacing: .2px;
+    cursor: pointer;
+    }
+    .nav>.part2>button{
+        font: 900 .9vmax "roboto";
+      color: white;
+      background-color: black;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      text-decoration-line: none;
+      text-anchor: none;
+}
+.nav>.part2>button:hover{
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.nav>.part2>img{
+    display: none;
+}
+.box1>h1{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font: 900 8vmax "poppins";
+    letter-spacing: 2px;
+    line-height: 130px;
+    color: rgb(251,80,0);
+  
+}
+.b1bottom{
+    background-color: white;
+    width: 20%;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 89%;
+    left: 80%;
+    cursor: pointer;
+}
+.b1bottom>h1{
+    font: 900 1.3vmax "poppins";
+}
+.b1bottom>img{
+    width: 13%; 
+}
+.b1bottom:hover .b1bottom>img{
+    transform: translateX(10%);
+}
+
+.box2{
+    background-color: rgb(244,244,238);
+    width: 100%;
+    height: 190vh;
+    
+}
+.b2top{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    overflow: hidden;
+}
+.b2one{
+    width: 31.5%;
+    height: inherit;
+
+}
+.b2one>h1{
+    font: 900 4vmax "poppins";
+    margin: 260px 60px;
+}
+.b2two{
+    width: 48%;
+    height: inherit;
+    padding: 50px;
+
+}
+.b2two>h2{
+    font: 900 1.3vmax "roboto";
+    margin-top: 260px;
+    line-height: 30px;
+}
+.b22{
+    width: 43%;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vmax;
+}
+.b22>h1{
+    font: 900 1.3vmax "poppins";
+    margin-right: 10px;
+}
+.b2bottom{
+    height: 110vh;
+    width: 100%;
+    background-image: url(front1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    width: 100%;
+    height: 105vh;
+    background-color: rgb(244,244,238);
+}
+.b3top{
+    width: 100%;
+    height: 30vh;
+}
+.b3top>h1{
+    font: 900 4vmax "poppins";
+    margin-left: 50px;
+    padding-top: 70px;
+}
+.b3top>h2{
+    font: 900 1.5vmax "poppins";
+    margin-left: 40px;
+}
+/* .swiper {
+    width: 1520px;
+    height: 600px;
+  } */
+/*   
+.b3middle{
+    width: 100%;
+    height: 75vh; 
+    white-space: nowrap;
+    overflow: auto;
+    position: absolute;
+    position: relative;
+    display: flex;
+}
+.b3middle::-webkit-scrollbar{
+    display: none;
+} */
+.swiper {
+    width: 100%;
+    height: 75vh;
+    white-space: nowrap;
+    overflow: auto;
+    position: absolute;
+    position: relative;
+  }
+
+  .b3one,.b3two,.b3three,.b3four{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    /* display: flex; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  /* .b3one,.b3two,.b3three,.b3four img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: black;
+  } */
+.b3one,.b3two,.b3three,.b3four{
+    width: 30%;
+    height: inherit;
+    border: .1px solid black;
+    margin: 0 30px;
+    padding: 70px;
+    display:inline-block;
+    position: relative;
+}
+
+.b3one>h3,.b3two>h3,.b3three>h3,.b3four>h3{
+    font: 900 1vmax "roboto";
+}
+.b3one>h1,.b3two>h1,.b3three>h1,.b3four>h1{
+    font: 900 1.8vmax "poppins";
+}
+.b3one>h2,.b3two>h2,.b3three>h2,.b3four>h2{
+    font: 300 1.2vmax "poppins";
+ width: 100%;
+ height: 30vh;
+ overflow: hidden;
+
+}
+.b3img1{
+    position: absolute;
+    top: 47%;
+    left: 0%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+}
+.b3img2{
+    position: absolute;
+    top: 47%;
+    left: 94.5%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+}
+.b3i1,.b3i2,.b3i3,.b3i4{
+    position: absolute;
+    top: 60%;
+}
+.box4{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(244,244,238);
+    background-image: url(top1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    width: 100%;
+    height: 100vh;
+ display: flex;
+}
+.b5left{
+    width: 50%;
+    height: inherit;
+    background-color: rgb(244,244,238);
+    background-image: url(drawing.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.b5right{
+    width: 50%;
+    height: inherit;
+    background-color: #FFD74E;
+}
+.b5right>h1{
+    font: 900 4.5vmax "poppins";
+    margin-top: 80px;
+    margin-left: 60px;
+    line-height: 80px;
+    width: 90%;
+}
+.b5right>p{
+    font: 500 1.3vmax "poppins";
+    margin-top: 10px;
+    margin-left: 60px;
+    line-height: 30px;
+    width: 85%;
+}
+.b5right>img{
+    height: 280px;
+    width: 350px;
+    margin-left: 14vmax;
+}
+.box6{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(244,244,238);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.b6one,.b6two,.b6three{
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.b6one>img,.b6two>img,.b6three>img{
+ height: 55px;
+}
+.b6one>h1,.b6two>h1,.b6three>h1{
+    width: 93%;
+    margin-top: 2vmax;
+    font: 700 1.8vmax "poppins";
+text-align: center;
+}
+.box7{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.box8{
+    width: 100%;
+    height: 280vh;
+    overflow: hidden;
+    background-color: rgb(244,244,238);
+}
+.b8one{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding-left: 70px;
+    padding-top: 150px;
+}
+.b8one>h1{
+    font: 900 4.3vmax "poppins";
+    width: 60%;
+    line-height: 80px;
+    text-align:start;
+}
+.b81{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5vmax;
+}
+.b81>h1{
+    font: 900 1.3vmax "poppins";
+}
+.b8two{
+    width: 100%;
+    height: 150vh;
+    padding-left: 70px;
+    padding-top: 120px;
+    position: relative;
+}
+.b8two>h1{
+    font: 900 3.8vmax "poppins";
+    width: 50%;
+    line-height: 70px;
+    text-align: start;
+}
+.b8two>p{
+    font: 900 1.3vmax "roboto";
+    width: 60%;
+margin-top: 1.5vmax;
+margin-left: .5vmax;
+}
+.b8two>h2{
+    font: 900 4vmax "poppins";
+    width: 60%;
+    line-height: 70px;
+    margin-top: 45vmax;
+    margin-left: 30vmax;
+    text-align: start;
+}
+.b8two>h3{
+    font: 900 1.3vmax "roboto";
+    width: 60%;
+margin-top: 1.5vmax;
+margin-left: 30vmax;
+}
+.img1{
+    position: absolute;
+    top: -6%;
+    left: 60%;
+}
+.img2{
+    position: absolute;
+    top: 48%;
+    left: 5%;
+}
+.box9{
+    width: 100%;
+    height: 60vh;
+    background-color: #FFD74E;
+    padding-top: 8vmax;
+    padding-left: 12vmax;
+}
+.box9>h1{
+    font: 900 4vmax "poppins"; 
+}
+.box9>p{
+    font: 900 1.3vmax "roboto"; 
+}
+.box9>button{
+    font: 900 1.3vmax "roboto";
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5vmax;
+}
+
+.box10{
+    width: 100%;
+    height: 100vh;
+    padding: 70px;
+    background-color: rgb(244,244,238);
+}
+.b10top{
+width: 100%;
+height: 22vh;
+display: flex;
+}
+.b10one,.b10two,.b10three{
+    width: 33%;
+    height:22vh ;
+    border: .1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.b10one,.b10two{
+    border-right: none;
+}
+.b10one>h1,.b10two>h1,.b10three>h1{
+    font: 900 1.8vmax "poppins";
+}
+.b10middle{
+    width: 100%;
+    height:68vh ;
+    display: flex;
+}
+.b10left,.b10right{
+    width: 49.5%;
+    height: inherit;
+    border: .1px solid black;
+    border-top: none;
+}
+.b10right{
+    display: flex;
+    padding: 60px;
+}
+.b10social{
+    margin-left: 12vmax;
+}
+.b10menu>h1,.b10social>h1{
+    font: 900 1.6vmax "poppins"; 
+    margin: 15px;
+}
+.b10menu>h2,.b10social>h2{
+    font: 400 1vmax "roboto"; 
+    margin: 15px;
+    cursor: pointer;
+}
+
+.b10left{
+    border-right: none;
+    padding: 70px;
+}
+.b10left>h1{
+    font: 900 1.6vmax "poppins"; 
+}
+.b10left>h2{
+    font: 600 1vmax "roboto"; 
+    margin-top: 5px;
+}
+.b10left>input{
+ padding: 10px 200px;
+ margin: 10px 0;
+ border-radius: 5px;
+ border: .1px solid rgba(0, 0, 0, 0.2);
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.check>input{
+    padding: 05px;
+}
+.check>h2{
+    font: 600 1vmax "roboto"; 
+    margin-left: .5vmax;
+}
+.b10left>button{
+    font: 900 1.2vmax "roboto";
+    color: white;
+    background-color: black;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2vmax;
+}
+.box11{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(244,244,238);
+    padding-top: 30px;
+}
+.b11last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+   width: 32%;
+}
+.b11last>h2{
+    font: 500 .9vmax "poppins"; 
+}
